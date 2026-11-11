@@ -1,0 +1,3 @@
+# jobs: 4          # max Checks running at once (default: GOMAXPROCS)
+# timeout: 5m       # per-Check timeout
+# disable: []       # Check names to skip: vet, golangci-lint, govulncheck, gosec, test

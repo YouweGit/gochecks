@@ -1,0 +1,31 @@
+# Build output
+/dist/
+/bin/
+/gochecks
+/gochecks.exe
+*.exe
+*.test
+*.out
+
+# Coverage and profiling
+coverage.*
+*.coverprofile
+*.prof
+
+# Local workspace files
+go.work
+go.work.sum
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
